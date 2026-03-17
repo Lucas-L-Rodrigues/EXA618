@@ -5,8 +5,6 @@ import time
 
 inicio = time.perf_counter()
 
-#mínimo de 100 estabelecimentos
-#exportar como CSV na mesma formatação pedida no classroom
 
 xmlExportado = parse('fsa.osm')
 
@@ -25,18 +23,15 @@ with open('estabelecimentos.csv', mode='w', newline='', encoding='utf-8') as csv
             if tag.getAttribute("k") == "name":
                 elemento.setAttribute("name", tag.getAttribute("v"))
 
-            if tag.getAttribute("k") == "amenity":
-                estabelecimentos_ids.append(elemento.getAttribute("id"))
-                tipo = tag.getAttribute("v")
-
         if elemento.getAttribute("name"):
             nomes += 1
 
     for estabelecimento in estabelecimentos_ids:
         for elemento in xmlExportado.getElementsByTagName("node"):
             if elemento.getAttribute("id") == estabelecimento:
-                tipo = elemento.getElementsByTagName("tag")[0].getAttribute("v")
-                for tag in elemento.getElementsByTagName("tag"):
+                for tag in elemento.getElementsByTagName("tag"): 
+                    if tag.getAttribute("k") == "amenity":
+                        tipo = tag.getAttribute("v")                   
                     if tag.getAttribute("k") == "name":
                         estabelecimentos_nomes.append(tag.getAttribute("v"))
                         print(f"\n\nID: {estabelecimento}")
