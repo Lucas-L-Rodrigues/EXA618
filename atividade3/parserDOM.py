@@ -7,6 +7,7 @@ inicio = time.perf_counter()
 
 #mínimo de 100 estabelecimentos
 #exportar como CSV na mesma formatação pedida no classroom
+
 xmlExportado = parse('f6.osm')
 
 contagem = 0
@@ -19,33 +20,12 @@ for elemento in xmlExportado.getElementsByTagName("node"):
     for tag in elemento.getElementsByTagName("tag"):
          if tag.getAttribute("k") == "name":
              elemento.setAttribute("name", tag.getAttribute("v"))
-             #bares.append(tag.getAttribute("v"))
 
          if tag.getAttribute("k") == "amenity" and tag.getAttribute("v") == "bar":
-             #elemento.setAttribute("name", tag.getAttribute("v"))
-            #  if tag.getAttribute("k") == "name":
-            #      elemento.setAttribute("name", tag.getAttribute("v"))
-            #      bares.append(tag.getAttribute("v"))
             bares_ids.append(elemento.getAttribute("id"))
 
-
-    # if elemento.getAttribute("name") and "bar" in elemento.getAttribute("name").lower():
-    #     bares.append(elemento.getAttribute("name"))
-    #     nomes += 1
     if elemento.getAttribute("name"):
         nomes += 1
-    # print("ID: " + elemento.getAttribute("id"))
-    # print("Nome: "+ elemento.getAttribute("name"))
-    # print("Latitude: " + elemento.getAttribute("lat"))
-    # print("Longitude: " + elemento.getAttribute("lon"))
-    # try:
-    #     print("Nome: " + elemento.getElementsByTagName("tag")[0].getAttribute("v"))
-    #     print("tipo: " + elemento.getElementsByTagName("tag")[0].getAttribute("k"))
-    #     print("Latitude: " + elemento.getAttribute("lat"))
-    #     print("Longitude: " + elemento.getAttribute("lon\n\n"))
-    #     nomes +=1
-    # except:
-    #     print("")
 
 for bar in bares_ids:
     for elemento in xmlExportado.getElementsByTagName("node"):
