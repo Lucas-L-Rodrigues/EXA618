@@ -19,10 +19,6 @@ with open('estabelecimentos.csv', mode='w', newline='', encoding='utf-8') as csv
     writer = csv.writer(csv_file)
     writer.writerow(['lat', 'lgt', 'tipo', 'nome'])
     for elemento in xmlExportado.getElementsByTagName("node"):
-        # lat =
-        # lgt =
-        # tipo =
-        # nome =
 
         contagem += 1
         for tag in elemento.getElementsByTagName("tag"):
