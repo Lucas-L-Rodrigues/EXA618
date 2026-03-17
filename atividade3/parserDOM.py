@@ -8,7 +8,7 @@ inicio = time.perf_counter()
 #mínimo de 100 estabelecimentos
 #exportar como CSV na mesma formatação pedida no classroom
 
-xmlExportado = parse('f6.osm')
+xmlExportado = parse('fsa.osm')
 
 contagem = 0
 nomes = 0
