@@ -43,7 +43,7 @@ with open('estabelecimentos.csv', mode='w', newline='', encoding='utf-8') as csv
                 for tag in elemento.getElementsByTagName("tag"):
                     if tag.getAttribute("k") == "name":
                         estabelecimentos_nomes.append(tag.getAttribute("v"))
-                        print(f"\n\nID: {estabelecimento}, Nome: {tag.getAttribute('v')}")
+                        print(f"\n\nID: {estabelecimento}")
                         print(f"Nome: {tag.getAttribute('v')}")
                         print(f"Latitude: {elemento.getAttribute('lat')}")
                         print(f"Longitude: {elemento.getAttribute('lon')}")
@@ -55,9 +55,3 @@ with open('estabelecimentos.csv', mode='w', newline='', encoding='utf-8') as csv
 
 fim = time.perf_counter()
 print(f"\n\nTempo gasto: {fim - inicio:.2f} segundos")
-
-print(f"\nTotal de elementos: {contagem}")
-print(f"Total de elementos com nome: {nomes}")
-print(f"Total de estabelecimentos: {len(estabelecimentos_ids)}")
-print(f"Total de estabelecimentos com nome: {len(estabelecimentos_nomes)}")
-print(f"Nomes dos estabelecimentos: {estabelecimentos_nomes}")
