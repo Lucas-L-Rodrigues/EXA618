@@ -1,5 +1,5 @@
 from xml.dom.minidom import parse
-#from time import perf_counter
+import csv
 import time
 
 
@@ -12,37 +12,52 @@ xmlExportado = parse('f6.osm')
 
 contagem = 0
 nomes = 0
-bares_ids = []
-bares_nomes = []
+estabelecimentos_ids = []
+estabelecimentos_nomes = []
 
-for elemento in xmlExportado.getElementsByTagName("node"):
-    contagem += 1
-    for tag in elemento.getElementsByTagName("tag"):
-         if tag.getAttribute("k") == "name":
-             elemento.setAttribute("name", tag.getAttribute("v"))
-
-         if tag.getAttribute("k") == "amenity" and tag.getAttribute("v") == "bar":
-            bares_ids.append(elemento.getAttribute("id"))
-
-    if elemento.getAttribute("name"):
-        nomes += 1
-
-for bar in bares_ids:
+with open('estabelecimentos.csv', mode='w', newline='', encoding='utf-8') as csv_file:
+    writer = csv.writer(csv_file)
+    writer.writerow(['lat', 'lgt', 'tipo', 'nome'])
     for elemento in xmlExportado.getElementsByTagName("node"):
-        if elemento.getAttribute("id") == bar:
-            for tag in elemento.getElementsByTagName("tag"):
-                if tag.getAttribute("k") == "name":
-                    bares_nomes.append(tag.getAttribute("v"))
-                    print(f"\n\nID: {bar}, Nome: {tag.getAttribute('v')}")
-                    print(f"Nome: {tag.getAttribute('v')}")
-                    print(f"Latitude: {elemento.getAttribute('lat')}")
-                    print(f"Longitude: {elemento.getAttribute('lon')}\n")
+        # lat =
+        # lgt =
+        # tipo =
+        # nome =
+
+        contagem += 1
+        for tag in elemento.getElementsByTagName("tag"):
+            if tag.getAttribute("k") == "name":
+                elemento.setAttribute("name", tag.getAttribute("v"))
+
+            if tag.getAttribute("k") == "amenity":
+                estabelecimentos_ids.append(elemento.getAttribute("id"))
+                tipo = tag.getAttribute("v")
+
+        if elemento.getAttribute("name"):
+            nomes += 1
+
+    for estabelecimento in estabelecimentos_ids:
+        for elemento in xmlExportado.getElementsByTagName("node"):
+            if elemento.getAttribute("id") == estabelecimento:
+                tipo = elemento.getElementsByTagName("tag")[0].getAttribute("v")
+                for tag in elemento.getElementsByTagName("tag"):
+                    if tag.getAttribute("k") == "name":
+                        estabelecimentos_nomes.append(tag.getAttribute("v"))
+                        print(f"\n\nID: {estabelecimento}, Nome: {tag.getAttribute('v')}")
+                        print(f"Nome: {tag.getAttribute('v')}")
+                        print(f"Latitude: {elemento.getAttribute('lat')}")
+                        print(f"Longitude: {elemento.getAttribute('lon')}")
+                        print(f"Tipo: {tipo}")
+                        lat = elemento.getAttribute("lat")
+                        lgt = elemento.getAttribute("lon")
+                        nome = tag.getAttribute("v")
+                        writer.writerow([lat, lgt, tipo, nome])
 
 fim = time.perf_counter()
 print(f"\n\nTempo gasto: {fim - inicio:.2f} segundos")
 
 print(f"\nTotal de elementos: {contagem}")
 print(f"Total de elementos com nome: {nomes}")
-print(f"Total de bares: {len(bares_ids)}")
-print(f"Total de bares com nome: {len(bares_nomes)}")
-print(f"Nomes dos bares: {bares_nomes}")
+print(f"Total de estabelecimentos: {len(estabelecimentos_ids)}")
+print(f"Total de estabelecimentos com nome: {len(estabelecimentos_nomes)}")
+print(f"Nomes dos estabelecimentos: {estabelecimentos_nomes}")
