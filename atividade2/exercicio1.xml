@@ -1,0 +1,5 @@
+<product>
+    <name lang="Portugues"
+    department="music">Tom Jobim</name>
+    <price currency="Reais">55,00</price>
+</product>

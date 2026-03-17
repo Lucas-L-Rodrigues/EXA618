@@ -1,0 +1,13 @@
+<customer name="cliente">
+    <address>endereco do cliente</address>
+</customer>
+
+<supplier name="fornecedor">
+    <address>endereco do fornecedor</address>
+</supplier>
+
+<order>
+    <item>item do pedido</item>
+</order>
+
+<>
