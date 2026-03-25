@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Lucas Lima Rodrigues - Atividade 5</title>
+</head>
+<body>
+    <h1>Lista das páginas</h1>
+    <div id="conteudo"></div>
+
+    <script src="dados.js"></script> 
+
+    <script>
+        const container = document.getElementById('conteudo');
+        
+        sites.forEach(item => {
+            const div = document.createElement('div');
+            div.className = 'item';
+            div.innerHTML = `
+                <h3>${item.titulo}</h3>
+                ${item.imagem ? `<img src="${item.imagem}">` : '<p><i>Sem imagem</i></p>'}
+            `;
+            container.appendChild(div);
+        });
+    </script>
+</body>
+</html>
