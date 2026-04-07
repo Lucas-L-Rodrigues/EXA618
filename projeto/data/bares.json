@@ -1,0 +1,1867 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.4645914,
+                    -12.9947462
+                ]
+            },
+            "properties": {
+                "nome": "BTQ 161",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.528351,
+                    -13.0074269
+                ]
+            },
+            "properties": {
+                "nome": "Boteco do Gavazza",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.4606574,
+                    -12.9913793
+                ]
+            },
+            "properties": {
+                "nome": "Boteco do Caranguejo",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.4397534,
+                    -12.9730808
+                ]
+            },
+            "properties": {
+                "nome": "Muá",
+                "endereco": "Rua das patativas"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.5307895,
+                    -13.0094004
+                ]
+            },
+            "properties": {
+                "nome": "Camarote",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.492038,
+                    -13.0112063
+                ]
+            },
+            "properties": {
+                "nome": "Meia 68",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.4778089,
+                    -12.9933611
+                ]
+            },
+            "properties": {
+                "nome": "Bom Demais",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.2646028,
+                    -12.8327001
+                ]
+            },
+            "properties": {
+                "nome": "Zueira",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.2678644,
+                    -12.8316593
+                ]
+            },
+            "properties": {
+                "nome": "Pé do Balcão",
+                "endereco": "Avenida Tiradentes"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.306258,
+                    -12.8816731
+                ]
+            },
+            "properties": {
+                "nome": "Porto Brasil Grelhados",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.516771,
+                    -12.9821332
+                ]
+            },
+            "properties": {
+                "nome": "O Líder",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.3086264,
+                    -12.885151
+                ]
+            },
+            "properties": {
+                "nome": "Na Carona",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.328284,
+                    -12.9385027
+                ]
+            },
+            "properties": {
+                "nome": "Cabana Tio Zé",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.5212205,
+                    -12.9867275
+                ]
+            },
+            "properties": {
+                "nome": "Quintal",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.4446396,
+                    -12.9152834
+                ]
+            },
+            "properties": {
+                "nome": "Bar abafadinho do Nal",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.5036328,
+                    -12.962796
+                ]
+            },
+            "properties": {
+                "nome": "Bar Bela Vista (Seu Domingos)",
+                "endereco": "Escadaria da Chácara Santo Antônio, portão 2-f"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.5265993,
+                    -13.0053952
+                ]
+            },
+            "properties": {
+                "nome": "Guapo Mexican Bar",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.526705,
+                    -13.0053179
+                ]
+            },
+            "properties": {
+                "nome": "Oslo Gastrobar",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.5090735,
+                    -12.983874
+                ]
+            },
+            "properties": {
+                "nome": "Mocambinho",
+                "endereco": "Largo Dois de Julho, Dois de Julho"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.5309026,
+                    -13.0049168
+                ]
+            },
+            "properties": {
+                "nome": "Bento Boteco",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.52986,
+                    -13.0048442
+                ]
+            },
+            "properties": {
+                "nome": "Bar da Ana",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.5256662,
+                    -13.0083834
+                ]
+            },
+            "properties": {
+                "nome": "Fábrica de Sucos",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.5257522,
+                    -13.008391
+                ]
+            },
+            "properties": {
+                "nome": "Sucos 24 horas",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.53055,
+                    -13.0095034
+                ]
+            },
+            "properties": {
+                "nome": "Habeas Copos",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.445547,
+                    -12.9924082
+                ]
+            },
+            "properties": {
+                "nome": "Bar do Jonas",
+                "endereco": "Rua Professor Gérson Pinto"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.4491967,
+                    -12.9942639
+                ]
+            },
+            "properties": {
+                "nome": "Point do Coco",
+                "endereco": "Rua Adelaide Fernandes da Costa"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.4913576,
+                    -13.0115719
+                ]
+            },
+            "properties": {
+                "nome": "Amnésia Pub",
+                "endereco": "Rua João Gomes, 63"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.5328109,
+                    -13.0057443
+                ]
+            },
+            "properties": {
+                "nome": "Oxe Drinks",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.4027044,
+                    -12.7918402
+                ]
+            },
+            "properties": {
+                "nome": "Bar de Roque",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.530861,
+                    -13.0097177
+                ]
+            },
+            "properties": {
+                "nome": "Boante ON",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.5299646,
+                    -13.0088194
+                ]
+            },
+            "properties": {
+                "nome": "Bar e Prosa",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.4808605,
+                    -13.0030716
+                ]
+            },
+            "properties": {
+                "nome": "Cesar Bar & Mine Mercado",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.5326732,
+                    -13.0036815
+                ]
+            },
+            "properties": {
+                "nome": "Casa da Felicidade Barra",
+                "endereco": "Avenida 7 de Setembro, 3713"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.525277,
+                    -12.9984527
+                ]
+            },
+            "properties": {
+                "nome": "espitinho bar",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.4600529,
+                    -12.999077
+                ]
+            },
+            "properties": {
+                "nome": "Sr. Haxi",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.4881905,
+                    -13.0133032
+                ]
+            },
+            "properties": {
+                "nome": "Cabral 500",
+                "endereco": "Largo da Mariquita, 10"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.4298433,
+                    -12.9337288
+                ]
+            },
+            "properties": {
+                "nome": "Barraca do Geraldo de Oxossi",
+                "endereco": "Rua Hugo Meijon"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.525394,
+                    -13.0070708
+                ]
+            },
+            "properties": {
+                "nome": "Beach Stop",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.4910381,
+                    -13.0112941
+                ]
+            },
+            "properties": {
+                "nome": "Jubiabar",
+                "endereco": "Rua Conselheiro Pedro Luiz, 279"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.4904665,
+                    -13.0114668
+                ]
+            },
+            "properties": {
+                "nome": "thé green house",
+                "endereco": "Rua Conselheiro Pedro Luiz, 369"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.4678062,
+                    -12.8485916
+                ]
+            },
+            "properties": {
+                "nome": "Bar Flor-do-Bairro",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.4924524,
+                    -13.0112518
+                ]
+            },
+            "properties": {
+                "nome": "Point do japa",
+                "endereco": "Rua da Paciência, 116"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.4878267,
+                    -13.0139417
+                ]
+            },
+            "properties": {
+                "nome": "Fronteira",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.4355547,
+                    -12.9730034
+                ]
+            },
+            "properties": {
+                "nome": "Boteco do Caranguejo",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.4909418,
+                    -13.0107681
+                ]
+            },
+            "properties": {
+                "nome": "América Pub e Petiscaria",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.4908313,
+                    -13.0107307
+                ]
+            },
+            "properties": {
+                "nome": "GIN",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.4607431,
+                    -12.9933531
+                ]
+            },
+            "properties": {
+                "nome": "Atoa Lounge",
+                "endereco": "Rua das Hortênsias, 624"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.5047199,
+                    -12.9646104
+                ]
+            },
+            "properties": {
+                "nome": "Confraria do Vinil",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.4604246,
+                    -12.9910353
+                ]
+            },
+            "properties": {
+                "nome": "Cau Botequim",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.4881507,
+                    -13.013389
+                ]
+            },
+            "properties": {
+                "nome": "O Meu Amado Boteco",
+                "endereco": "Largo da Mariquita, 10A"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.4567658,
+                    -13.0039963
+                ]
+            },
+            "properties": {
+                "nome": "Ponte Aérea",
+                "endereco": "Rua São Paulo, 404"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.4554722,
+                    -12.9936062
+                ]
+            },
+            "properties": {
+                "nome": "Zacca",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.4882307,
+                    -13.0132268
+                ]
+            },
+            "properties": {
+                "nome": "Quatro Ventos",
+                "endereco": "Largo da Mariquita, 6"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.4565269,
+                    -13.0013498
+                ]
+            },
+            "properties": {
+                "nome": "PA2",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.5284348,
+                    -13.000351
+                ]
+            },
+            "properties": {
+                "nome": "Bar do Chico",
+                "endereco": "Rua Presidente Kennedy"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.361543,
+                    -12.9491955
+                ]
+            },
+            "properties": {
+                "nome": "Pousada Betel",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.3621612,
+                    -12.9490448
+                ]
+            },
+            "properties": {
+                "nome": "Cabana da Sonia",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.3619789,
+                    -12.9497584
+                ]
+            },
+            "properties": {
+                "nome": "Garijú Bar",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.3608604,
+                    -12.9493872
+                ]
+            },
+            "properties": {
+                "nome": "Bar e Barraca da Ana",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.3576853,
+                    -12.9533729
+                ]
+            },
+            "properties": {
+                "nome": "Associação Brasil - Clube de Campo de Salvador",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.3571917,
+                    -12.9542119
+                ]
+            },
+            "properties": {
+                "nome": "Juar Artes",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.3591715,
+                    -12.9513424
+                ]
+            },
+            "properties": {
+                "nome": "Bar da Nega",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.3620214,
+                    -12.9508062
+                ]
+            },
+            "properties": {
+                "nome": "Blue Space Club",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.3582262,
+                    -12.9247777
+                ]
+            },
+            "properties": {
+                "nome": "Bar da Cristina",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.3603147,
+                    -12.9327092
+                ]
+            },
+            "properties": {
+                "nome": "Boteco da Cervejaria",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.3637217,
+                    -12.9362949
+                ]
+            },
+            "properties": {
+                "nome": "Bar do César",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.363619,
+                    -12.9453086
+                ]
+            },
+            "properties": {
+                "nome": "DJ Marcos Jacobina",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.3398717,
+                    -12.9385244
+                ]
+            },
+            "properties": {
+                "nome": "Depósito de Bebidas Estrela do Mar",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.3397304,
+                    -12.9329854
+                ]
+            },
+            "properties": {
+                "nome": "Bar de Cilda",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.3390554,
+                    -12.934105
+                ]
+            },
+            "properties": {
+                "nome": "Bar do Monstrão",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.3383797,
+                    -12.9355171
+                ]
+            },
+            "properties": {
+                "nome": "Usina Music Bar",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.3335714,
+                    -12.9347281
+                ]
+            },
+            "properties": {
+                "nome": "Bar da Liliu",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.335002,
+                    -12.9336467
+                ]
+            },
+            "properties": {
+                "nome": "Bar do Cardoso",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.3397539,
+                    -12.9437762
+                ]
+            },
+            "properties": {
+                "nome": "Império das Bebidas",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.3340619,
+                    -12.9383539
+                ]
+            },
+            "properties": {
+                "nome": "Le Petit Bar",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.3582015,
+                    -12.9241126
+                ]
+            },
+            "properties": {
+                "nome": "Bar to Chegando",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.3598295,
+                    -12.9357088
+                ]
+            },
+            "properties": {
+                "nome": "Garagem Batrákia",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.452917,
+                    -12.9935669
+                ]
+            },
+            "properties": {
+                "nome": "Aleatórios Bar",
+                "endereco": "Rua Miguel Navarro y Cañizares, 234"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.4924433,
+                    -13.0111727
+                ]
+            },
+            "properties": {
+                "nome": "Tche Lounge Pub Bar",
+                "endereco": "Rua da Paciência, 116"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.4925222,
+                    -13.0112029
+                ]
+            },
+            "properties": {
+                "nome": "Bar Santo Forte",
+                "endereco": "Rua da Paciência, 116"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.504952,
+                    -12.9650332
+                ]
+            },
+            "properties": {
+                "nome": "Oliveiras",
+                "endereco": "Rua Direta de Santo Antônio, 110"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.4909454,
+                    -13.0106533
+                ]
+            },
+            "properties": {
+                "nome": "Bombar",
+                "endereco": "Rua Canavieiras, 24"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.4914806,
+                    -13.0114609
+                ]
+            },
+            "properties": {
+                "nome": "Aqua Dura",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.4069106,
+                    -12.928585
+                ]
+            },
+            "properties": {
+                "nome": "Bar da Dadau",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.4872814,
+                    -13.0129893
+                ]
+            },
+            "properties": {
+                "nome": "Área 51 StúdioBar",
+                "endereco": "Rua Basílio de Magalhães, 90"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.4872686,
+                    -13.0130533
+                ]
+            },
+            "properties": {
+                "nome": "Arapuca",
+                "endereco": "Rua Basílio de Magalhães, 84"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.4733917,
+                    -13.0105273
+                ]
+            },
+            "properties": {
+                "nome": "Bar Restaurante Grill na Brasa",
+                "endereco": "Rua do Norte"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.4597422,
+                    -12.9913706
+                ]
+            },
+            "properties": {
+                "nome": "Pirambeira",
+                "endereco": "Rua Guillard Muniz, 629"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.473122,
+                    -12.8396726
+                ]
+            },
+            "properties": {
+                "nome": "Bahia House Marina",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.4592948,
+                    -12.9918012
+                ]
+            },
+            "properties": {
+                "nome": "Astro",
+                "endereco": "Rua das Angélicas, 175"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.4554728,
+                    -12.9928866
+                ]
+            },
+            "properties": {
+                "nome": "Quintal da Esquina",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.4898646,
+                    -13.0133812
+                ]
+            },
+            "properties": {
+                "nome": "Casa bar",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.4578138,
+                    -13.0029686
+                ]
+            },
+            "properties": {
+                "nome": "La Bottega",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.5085733,
+                    -12.9741294
+                ]
+            },
+            "properties": {
+                "nome": "Poison Drinkeria Club",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.4946466,
+                    -13.010854
+                ]
+            },
+            "properties": {
+                "nome": "Bar da Paciência",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.4552632,
+                    -12.9924826
+                ]
+            },
+            "properties": {
+                "nome": "Obá",
+                "endereco": "Rua das Rosas, 148"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.4552619,
+                    -12.992569
+                ]
+            },
+            "properties": {
+                "nome": "Marreco",
+                "endereco": "Rua das Rosas, 136"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.451686,
+                    -13.0033267
+                ]
+            },
+            "properties": {
+                "nome": "Espetto Baiano Prime",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.4758031,
+                    -12.9327653
+                ]
+            },
+            "properties": {
+                "nome": "Bar do Moura",
+                "endereco": "Rua Rezende de Jesus"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.4905242,
+                    -13.013067
+                ]
+            },
+            "properties": {
+                "nome": "Casa Bohemia",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.5325306,
+                    -13.0106642
+                ]
+            },
+            "properties": {
+                "nome": "Dendê Praia Club",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.4619168,
+                    -13.0020759
+                ]
+            },
+            "properties": {
+                "nome": "Libertar Bier",
+                "endereco": "Alameda Florença, 77"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.5059104,
+                    -12.9216699
+                ]
+            },
+            "properties": {
+                "nome": "Casa Beer",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.4710649,
+                    -12.9886739
+                ]
+            },
+            "properties": {
+                "nome": "DiFoca",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.370027,
+                    -12.946778
+                ]
+            },
+            "properties": {
+                "nome": "Água de Pote",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.4588287,
+                    -12.990467
+                ]
+            },
+            "properties": {
+                "nome": "Botecaria",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.4507879,
+                    -13.0013218
+                ]
+            },
+            "properties": {
+                "nome": "Boteco do Caranguejo",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.5167494,
+                    -12.9808708
+                ]
+            },
+            "properties": {
+                "nome": "Bar do Nõ",
+                "endereco": "Rua Areal de Cima, 200"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.5169649,
+                    -12.9828196
+                ]
+            },
+            "properties": {
+                "nome": "Mocambinho Bar",
+                "endereco": "Rua da Faísca, 12"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.4576792,
+                    -12.9901654
+                ]
+            },
+            "properties": {
+                "nome": "Seu Zelito Boteco dos Botecos",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.3710682,
+                    -12.949698
+                ]
+            },
+            "properties": {
+                "nome": "Boteco da Cari",
+                "endereco": "Rua Sub Oficial Gildo Zanin Pistolato, 19"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.4977141,
+                    -12.9615609
+                ]
+            },
+            "properties": {
+                "nome": "Bar Guanabara",
+                "endereco": "Rua Nossa Senhora de Lourdes"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.459762,
+                    -12.9916129
+                ]
+            },
+            "properties": {
+                "nome": "Tatu Bola",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.499992,
+                    -12.9981057
+                ]
+            },
+            "properties": {
+                "nome": "Bar da Loura",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.4599877,
+                    -12.9990873
+                ]
+            },
+            "properties": {
+                "nome": "Purgatório",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.4515852,
+                    -13.0032297
+                ]
+            },
+            "properties": {
+                "nome": "Jurerê Bar",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.4051973,
+                    -12.9669106
+                ]
+            },
+            "properties": {
+                "nome": "Petiscaê",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.5007016,
+                    -13.0120795
+                ]
+            },
+            "properties": {
+                "nome": "Brisa do mar",
+                "endereco": "6a"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.4697018,
+                    -12.9136726
+                ]
+            },
+            "properties": {
+                "nome": "Bar",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.4526837,
+                    -12.9821915
+                ]
+            },
+            "properties": {
+                "nome": "Toca do Cobra",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.3624191,
+                    -12.9495836
+                ]
+            },
+            "properties": {
+                "nome": "Rasta do Coco",
+                "endereco": "Rua Olhos D'Água, 3-47"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.4905595,
+                    -13.0116519
+                ]
+            },
+            "properties": {
+                "nome": "ECO",
+                "endereco": "Rua Conselheiro Pedro Luiz, 348"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.4945056,
+                    -13.0108612
+                ]
+            },
+            "properties": {
+                "nome": "Boteco do Paulista",
+                "endereco": "Rua da Paciência, 263"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.5083239,
+                    -12.9706043
+                ]
+            },
+            "properties": {
+                "nome": "Bar da Pri",
+                "endereco": "Rua do Passo, 06"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.5176269,
+                    -12.9838605
+                ]
+            },
+            "properties": {
+                "nome": "Bar Âncora do Marujo",
+                "endereco": "Avenida Carlos Gomes, 809"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.5167971,
+                    -12.9829079
+                ]
+            },
+            "properties": {
+                "nome": "Brahma",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.5003149,
+                    -13.0083158
+                ]
+            },
+            "properties": {
+                "nome": "Cantinho dans Aguas",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.5002768,
+                    -13.0083101
+                ]
+            },
+            "properties": {
+                "nome": "O barzinho da maria",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.4957229,
+                    -13.0103612
+                ]
+            },
+            "properties": {
+                "nome": "Terê gastrobar",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.4895748,
+                    -13.0128377
+                ]
+            },
+            "properties": {
+                "nome": "Saideira beer",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.491123,
+                    -12.974849
+                ]
+            },
+            "properties": {
+                "nome": "Bar Da Lu",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.5199242,
+                    -12.9863784
+                ]
+            },
+            "properties": {
+                "nome": "O colon",
+                "endereco": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.4868928,
+                    -13.0090969
+                ]
+            },
+            "properties": {
+                "nome": "Bar Red river",
+                "endereco": ""
+            }
+        }
+    ]
+}

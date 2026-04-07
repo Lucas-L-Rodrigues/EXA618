@@ -1,0 +1,847 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="Overpass API 0.7.62.11 87bfad18">
+<note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
+<meta osm_base="2026-04-07T18:47:45Z"/>
+
+  <node id="651765785" lat="-12.9947462" lon="-38.4645914">
+    <tag k="amenity" v="bar"/>
+    <tag k="check_date" v="2026-03-13"/>
+    <tag k="name" v="BTQ 161"/>
+    <tag k="outdoor_seating" v="yes"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="1149057327" lat="-13.0074269" lon="-38.5283510">
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Boteco do Gavazza"/>
+    <tag k="phone" v="+55 71 32676095"/>
+  </node>
+  <node id="1151660339" lat="-12.9913793" lon="-38.4606574">
+    <tag k="amenity" v="bar"/>
+    <tag k="check_date" v="2023-03-02"/>
+    <tag k="name" v="Boteco do Caranguejo"/>
+    <tag k="outdoor_seating" v="yes"/>
+    <tag k="phone" v="+55 71 34522746"/>
+    <tag k="source" v="survey"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="1413750279" lat="-12.9730808" lon="-38.4397534">
+    <tag k="addr:street" v="Rua das patativas"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Muá"/>
+  </node>
+  <node id="1457452201" lat="-13.0094004" lon="-38.5307895">
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Camarote"/>
+    <tag k="survey:date" v="2022-04-16"/>
+  </node>
+  <node id="1486476689" lat="-13.0112063" lon="-38.4920380">
+    <tag k="amenity" v="bar"/>
+    <tag k="indoor_seating" v="yes"/>
+    <tag k="name" v="Meia 68"/>
+    <tag k="outdoor_seating" v="yes"/>
+  </node>
+  <node id="2056621015" lat="-12.9933611" lon="-38.4778089">
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Bom Demais"/>
+  </node>
+  <node id="2296148904" lat="-12.8327001" lon="-38.2646028">
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Zueira"/>
+    <tag k="wifi" v="no"/>
+  </node>
+  <node id="2296149837" lat="-12.8316593" lon="-38.2678644">
+    <tag k="addr:street" v="Avenida Tiradentes"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Pé do Balcão"/>
+    <tag k="wifi" v="no"/>
+  </node>
+  <node id="2296387488" lat="-12.8816731" lon="-38.3062580">
+    <tag k="amenity" v="bar"/>
+    <tag k="internet_access" v="wlan"/>
+    <tag k="internet_access:fee" v="no"/>
+    <tag k="name" v="Porto Brasil Grelhados"/>
+  </node>
+  <node id="2381972127" lat="-12.9821332" lon="-38.5167710">
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="O Líder"/>
+  </node>
+  <node id="2404028840" lat="-12.8851510" lon="-38.3086264">
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Na Carona"/>
+  </node>
+  <node id="2447244576" lat="-12.9385027" lon="-38.3282840">
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Cabana Tio Zé"/>
+  </node>
+  <node id="2580132582" lat="-12.9867275" lon="-38.5212205">
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Quintal"/>
+  </node>
+  <node id="2581152135" lat="-12.9152834" lon="-38.4446396">
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Bar abafadinho do Nal"/>
+    <tag k="note" v="Adicionado bar"/>
+  </node>
+  <node id="2694140162" lat="-12.9627960" lon="-38.5036328">
+    <tag k="addr:city" v="Salvador"/>
+    <tag k="addr:housenumber" v="portão 2-f"/>
+    <tag k="addr:street" v="Escadaria da Chácara Santo Antônio"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Bar Bela Vista (Seu Domingos)"/>
+  </node>
+  <node id="2818713123" lat="-13.0053952" lon="-38.5265993">
+    <tag k="amenity" v="bar"/>
+    <tag k="check_date" v="2023-07-05"/>
+    <tag k="name" v="Guapo Mexican Bar"/>
+  </node>
+  <node id="2822040267" lat="-13.0053179" lon="-38.5267050">
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Oslo Gastrobar"/>
+  </node>
+  <node id="3233639531" lat="-12.9838740" lon="-38.5090735">
+    <tag k="addr:street" v="Largo Dois de Julho, Dois de Julho"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Mocambinho"/>
+    <tag k="wifi" v="no"/>
+  </node>
+  <node id="3704653767" lat="-13.0049168" lon="-38.5309026">
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Bento Boteco"/>
+  </node>
+  <node id="3704653770" lat="-13.0048442" lon="-38.5298600">
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Bar da Ana"/>
+  </node>
+  <node id="3712448992" lat="-13.0083834" lon="-38.5256662">
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Fábrica de Sucos"/>
+  </node>
+  <node id="3712451025" lat="-13.0083910" lon="-38.5257522">
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Sucos 24 horas"/>
+  </node>
+  <node id="3724031218" lat="-13.0095034" lon="-38.5305500">
+    <tag k="amenity" v="bar"/>
+    <tag k="check_date" v="2022-07-16"/>
+    <tag k="name" v="Habeas Copos"/>
+    <tag k="wheelchair" v="limited"/>
+  </node>
+  <node id="3832984421" lat="-12.9924082" lon="-38.4455470">
+    <tag k="addr:city" v="Salvador"/>
+    <tag k="addr:postcode" v="41760-000"/>
+    <tag k="addr:street" v="Rua Professor Gérson Pinto"/>
+    <tag k="addr:suburb" v="Costa Azul"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Bar do Jonas"/>
+    <tag k="note" v="Local sem número"/>
+    <tag k="operator" v="Jonas"/>
+  </node>
+  <node id="3833047750" lat="-12.9942639" lon="-38.4491967">
+    <tag k="addr:street" v="Rua Adelaide Fernandes da Costa"/>
+    <tag k="addr:suburb" v="Costa Azul"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Point do Coco"/>
+  </node>
+  <node id="4356521480" lat="-13.0115719" lon="-38.4913576">
+    <tag k="addr:city" v="Salvador"/>
+    <tag k="addr:housenumber" v="63"/>
+    <tag k="addr:postcode" v="41950-640"/>
+    <tag k="addr:street" v="Rua João Gomes"/>
+    <tag k="addr:suburb" v="Rio Vermelho"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="cuisine" v="açaí"/>
+    <tag k="name" v="Amnésia Pub"/>
+  </node>
+  <node id="4379475881" lat="-13.0057443" lon="-38.5328109">
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Oxe Drinks"/>
+    <tag k="survey:date" v="2022-02-05"/>
+  </node>
+  <node id="4516206596" lat="-12.7918402" lon="-38.4027044">
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Bar de Roque"/>
+  </node>
+  <node id="4525064989" lat="-13.0097177" lon="-38.5308610">
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Boante ON"/>
+  </node>
+  <node id="4525064995" lat="-13.0088194" lon="-38.5299646">
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Bar e Prosa"/>
+  </node>
+  <node id="4561906289" lat="-13.0030716" lon="-38.4808605">
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Cesar Bar &amp; Mine Mercado"/>
+    <tag k="name:pt" v="Cesar Bar &amp; Mine Mercado"/>
+  </node>
+  <node id="4614096957" lat="-13.0036815" lon="-38.5326732">
+    <tag k="addr:city" v="Salvador"/>
+    <tag k="addr:district" v="Barra"/>
+    <tag k="addr:housenumber" v="3713"/>
+    <tag k="addr:street" v="Avenida 7 de Setembro"/>
+    <tag k="air_conditioning" v="no"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="changing_table" v="no"/>
+    <tag k="cuisine" v="tapas"/>
+    <tag k="level" v="0"/>
+    <tag k="name" v="Casa da Felicidade Barra"/>
+    <tag k="toilets" v="yes"/>
+    <tag k="website" v="https://www.facebook.com/100063470801701/"/>
+  </node>
+  <node id="4692965589" lat="-12.9984527" lon="-38.5252770">
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="espitinho bar"/>
+  </node>
+  <node id="4771963621" lat="-12.9990770" lon="-38.4600529">
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Sr. Haxi"/>
+  </node>
+  <node id="4782153181" lat="-13.0133032" lon="-38.4881905">
+    <tag k="addr:city" v="Salvador"/>
+    <tag k="addr:housenumber" v="10"/>
+    <tag k="addr:postcode" v="41940-380"/>
+    <tag k="addr:street" v="Largo da Mariquita"/>
+    <tag k="addr:suburb" v="Rio Vermelho"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="check_date" v="2026-02-16"/>
+    <tag k="name" v="Cabral 500"/>
+  </node>
+  <node id="4969186401" lat="-12.9337288" lon="-38.4298433">
+    <tag k="addr:street" v="Rua Hugo Meijon"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Barraca do Geraldo de Oxossi"/>
+  </node>
+  <node id="5138228653" lat="-13.0070708" lon="-38.5253940">
+    <tag k="amenity" v="bar"/>
+    <tag k="level" v="0"/>
+    <tag k="name" v="Beach Stop"/>
+    <tag k="source" v="survey"/>
+  </node>
+  <node id="5154117933" lat="-13.0112941" lon="-38.4910381">
+    <tag k="addr:housenumber" v="279"/>
+    <tag k="addr:street" v="Rua Conselheiro Pedro Luiz"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Jubiabar"/>
+  </node>
+  <node id="5154163047" lat="-13.0114668" lon="-38.4904665">
+    <tag k="addr:city" v="Salvador"/>
+    <tag k="addr:housenumber" v="369"/>
+    <tag k="addr:postcode" v="41950-610"/>
+    <tag k="addr:street" v="Rua Conselheiro Pedro Luiz"/>
+    <tag k="addr:suburb" v="Rio Vermelho"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="thé green house"/>
+  </node>
+  <node id="5260870927" lat="-12.8485916" lon="-38.4678062">
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Bar Flor-do-Bairro"/>
+    <tag k="opening_hours" v="Mo-Su 10:00-19:00"/>
+  </node>
+  <node id="5324806223" lat="-13.0112518" lon="-38.4924524">
+    <tag k="addr:city" v="Salvador"/>
+    <tag k="addr:housenumber" v="116"/>
+    <tag k="addr:postcode" v="41950-010"/>
+    <tag k="addr:street" v="Rua da Paciência"/>
+    <tag k="addr:suburb" v="Rio Vermelho"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="check_date" v="2026-02-18"/>
+    <tag k="indoor_seating" v="yes"/>
+    <tag k="name" v="Point do japa"/>
+    <tag k="outdoor_seating" v="yes"/>
+  </node>
+  <node id="5620545221" lat="-13.0139417" lon="-38.4878267">
+    <tag k="amenity" v="bar"/>
+    <tag k="check_date" v="2026-02-14"/>
+    <tag k="name" v="Fronteira"/>
+    <tag k="outdoor_seating" v="yes"/>
+  </node>
+  <node id="5663596358" lat="-12.9730034" lon="-38.4355547">
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Boteco do Caranguejo"/>
+  </node>
+  <node id="5878659469" lat="-13.0107681" lon="-38.4909418">
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="América Pub e Petiscaria"/>
+    <tag k="opening_hours" v="Tu-Th 17:40-23:00; Fr-Sa 17:40-02:00; Su 17:40-23:00"/>
+  </node>
+  <node id="5878659471" lat="-13.0107307" lon="-38.4908313">
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="GIN"/>
+    <tag k="opening_hours" v="Th-Sa 19:00-01:00"/>
+  </node>
+  <node id="6071669897" lat="-12.9933531" lon="-38.4607431">
+    <tag k="addr:housenumber" v="624"/>
+    <tag k="addr:street" v="Rua das Hortênsias"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="check_date" v="2025-01-01"/>
+    <tag k="name" v="Atoa Lounge"/>
+    <tag k="outdoor_seating" v="yes"/>
+    <tag k="wheelchair" v="no"/>
+  </node>
+  <node id="6223641885" lat="-12.9646104" lon="-38.5047199">
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Confraria do Vinil"/>
+  </node>
+  <node id="6321886549" lat="-12.9910353" lon="-38.4604246">
+    <tag k="amenity" v="bar"/>
+    <tag k="check_date" v="2025-06-07"/>
+    <tag k="name" v="Cau Botequim"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="6381698126" lat="-12.9621779" lon="-38.4651894">
+    <tag k="addr:street" v="Rua Inhambupe"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="brewery" v="yes"/>
+    <tag k="outdoor_seating" v="yes"/>
+  </node>
+  <node id="6446841541" lat="-13.0133890" lon="-38.4881507">
+    <tag k="addr:city" v="Salvador"/>
+    <tag k="addr:housenumber" v="10A"/>
+    <tag k="addr:postcode" v="41940-000"/>
+    <tag k="addr:street" v="Largo da Mariquita"/>
+    <tag k="addr:suburb" v="Rio Vermelho"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="O Meu Amado Boteco"/>
+    <tag k="outdoor_seating" v="yes"/>
+  </node>
+  <node id="6563514155" lat="-13.0039963" lon="-38.4567658">
+    <tag k="addr:housenumber" v="404"/>
+    <tag k="addr:street" v="Rua São Paulo"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Ponte Aérea"/>
+    <tag k="phone" v="+55 71 3346 1200"/>
+  </node>
+  <node id="6568677185" lat="-12.9936062" lon="-38.4554722">
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Zacca"/>
+    <tag k="old_name" v="Zaccaria"/>
+  </node>
+  <node id="6584515560" lat="-13.0132268" lon="-38.4882307">
+    <tag k="addr:city" v="Salvador"/>
+    <tag k="addr:housenumber" v="6"/>
+    <tag k="addr:postcode" v="41940-380"/>
+    <tag k="addr:street" v="Largo da Mariquita"/>
+    <tag k="addr:suburb" v="Rio Vermelho"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="check_date" v="2026-02-16"/>
+    <tag k="name" v="Quatro Ventos"/>
+  </node>
+  <node id="6668215705" lat="-13.0013498" lon="-38.4565269">
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="PA2"/>
+  </node>
+  <node id="6746978484" lat="-13.0003510" lon="-38.5284348">
+    <tag k="addr:street" v="Rua Presidente Kennedy"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Bar do Chico"/>
+    <tag k="opening_hours" v="Tu-Su 10:00-24:00; Mo 10:00-22:00"/>
+  </node>
+  <node id="6821259789" lat="-12.9491955" lon="-38.3615430">
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Pousada Betel"/>
+  </node>
+  <node id="6822730652" lat="-12.9490448" lon="-38.3621612">
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Cabana da Sonia"/>
+  </node>
+  <node id="6822730653" lat="-12.9497584" lon="-38.3619789">
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Garijú Bar"/>
+  </node>
+  <node id="6822730654" lat="-12.9493872" lon="-38.3608604">
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Bar e Barraca da Ana"/>
+  </node>
+  <node id="6822730662" lat="-12.9533729" lon="-38.3576853">
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Associação Brasil - Clube de Campo de Salvador"/>
+  </node>
+  <node id="6822730663" lat="-12.9542119" lon="-38.3571917">
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Juar Artes"/>
+  </node>
+  <node id="6822742386" lat="-12.9513424" lon="-38.3591715">
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Bar da Nega"/>
+  </node>
+  <node id="6822752675" lat="-12.9508062" lon="-38.3620214">
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Blue Space Club"/>
+  </node>
+  <node id="6822933472" lat="-12.9247777" lon="-38.3582262">
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Bar da Cristina"/>
+  </node>
+  <node id="6823004823" lat="-12.9327092" lon="-38.3603147">
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Boteco da Cervejaria"/>
+  </node>
+  <node id="6823041363" lat="-12.9362949" lon="-38.3637217">
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Bar do César"/>
+  </node>
+  <node id="6826924183" lat="-12.9453086" lon="-38.3636190">
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="DJ Marcos Jacobina"/>
+  </node>
+  <node id="6827880375" lat="-12.9385244" lon="-38.3398717">
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Depósito de Bebidas Estrela do Mar"/>
+  </node>
+  <node id="6827957256" lat="-12.9329854" lon="-38.3397304">
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Bar de Cilda"/>
+  </node>
+  <node id="6827957259" lat="-12.9341050" lon="-38.3390554">
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Bar do Monstrão"/>
+  </node>
+  <node id="6827962460" lat="-12.9355171" lon="-38.3383797">
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Usina Music Bar"/>
+  </node>
+  <node id="6828047334" lat="-12.9347281" lon="-38.3335714">
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Bar da Liliu"/>
+  </node>
+  <node id="6828047847" lat="-12.9336467" lon="-38.3350020">
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Bar do Cardoso"/>
+  </node>
+  <node id="6828602027" lat="-12.9437762" lon="-38.3397539">
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Império das Bebidas"/>
+  </node>
+  <node id="6828741035" lat="-12.9383539" lon="-38.3340619">
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Le Petit Bar"/>
+  </node>
+  <node id="7039285490" lat="-12.9241126" lon="-38.3582015">
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Bar to Chegando"/>
+  </node>
+  <node id="7039351502" lat="-12.9357088" lon="-38.3598295">
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Garagem Batrákia"/>
+  </node>
+  <node id="7188935885" lat="-12.9935669" lon="-38.4529170">
+    <tag k="addr:housenumber" v="234"/>
+    <tag k="addr:street" v="Rua Miguel Navarro y Cañizares"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="brewery" v="yes"/>
+    <tag k="check_date" v="2023-06-22"/>
+    <tag k="name" v="Aleatórios Bar"/>
+  </node>
+  <node id="7380756920" lat="-13.0111727" lon="-38.4924433">
+    <tag k="addr:city" v="Salvador"/>
+    <tag k="addr:housenumber" v="116"/>
+    <tag k="addr:postcode" v="41950-010"/>
+    <tag k="addr:street" v="Rua da Paciência"/>
+    <tag k="addr:suburb" v="Rio Vermelho"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="check_date" v="2026-02-23"/>
+    <tag k="indoor_seating" v="yes"/>
+    <tag k="name" v="Tche Lounge Pub Bar"/>
+    <tag k="outdoor_seating" v="yes"/>
+  </node>
+  <node id="7380756921" lat="-13.0112029" lon="-38.4925222">
+    <tag k="addr:city" v="Salvador"/>
+    <tag k="addr:housenumber" v="116"/>
+    <tag k="addr:postcode" v="41950-010"/>
+    <tag k="addr:street" v="Rua da Paciência"/>
+    <tag k="addr:suburb" v="Rio Vermelho"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Bar Santo Forte"/>
+  </node>
+  <node id="7486680223" lat="-12.9650332" lon="-38.5049520">
+    <tag k="addr:city" v="Salvador"/>
+    <tag k="addr:housenumber" v="110"/>
+    <tag k="addr:postcode" v="40301-280"/>
+    <tag k="addr:street" v="Rua Direta de Santo Antônio"/>
+    <tag k="addr:suburb" v="Além do Carmo"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="brewery" v="yes"/>
+    <tag k="description" v="Drinks autorais, arte nas paredes, música ao vivo."/>
+    <tag k="name" v="Oliveiras"/>
+    <tag k="opening_hours" v="Terça a Sábado: 11h30–23h; Domingo: 11h30–17h"/>
+  </node>
+  <node id="7487591332" lat="-13.0106533" lon="-38.4909454">
+    <tag k="addr:city" v="Salvador"/>
+    <tag k="addr:housenumber" v="24"/>
+    <tag k="addr:postcode" v="41940-690"/>
+    <tag k="addr:street" v="Rua Canavieiras"/>
+    <tag k="addr:suburb" v="Rio Vermelho"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Bombar"/>
+    <tag k="note" v="lgbtqiapn+"/>
+    <tag k="opening_hours" v="Todos os dias - 18h"/>
+    <tag k="website" v="https://www.instagram.com/bombarrv/?hl=pt-br"/>
+  </node>
+  <node id="7487606692" lat="-13.0114609" lon="-38.4914806">
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Aqua Dura"/>
+  </node>
+  <node id="7656916070" lat="-12.9285850" lon="-38.4069106">
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Bar da Dadau"/>
+  </node>
+  <node id="7794941749" lat="-13.0129893" lon="-38.4872814">
+    <tag k="addr:city" v="Salvador"/>
+    <tag k="addr:housenumber" v="90"/>
+    <tag k="addr:postcode" v="41940-430"/>
+    <tag k="addr:street" v="Rua Basílio de Magalhães"/>
+    <tag k="addr:suburb" v="Rio Vermelho"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Área 51 StúdioBar"/>
+  </node>
+  <node id="7794941750" lat="-13.0130533" lon="-38.4872686">
+    <tag k="addr:city" v="Salvador"/>
+    <tag k="addr:housenumber" v="84"/>
+    <tag k="addr:postcode" v="41940-430"/>
+    <tag k="addr:street" v="Rua Basílio de Magalhães"/>
+    <tag k="addr:suburb" v="Rio Vermelho"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Arapuca"/>
+  </node>
+  <node id="7810871444" lat="-12.9096295" lon="-38.4752865">
+    <tag k="amenity" v="bar"/>
+  </node>
+  <node id="7810917076" lat="-12.9116800" lon="-38.4757718">
+    <tag k="amenity" v="bar"/>
+  </node>
+  <node id="7810917079" lat="-12.9098635" lon="-38.4747071">
+    <tag k="amenity" v="bar"/>
+  </node>
+  <node id="7810917080" lat="-12.9105480" lon="-38.4749343">
+    <tag k="amenity" v="bar"/>
+  </node>
+  <node id="7810917081" lat="-12.9113284" lon="-38.4742684">
+    <tag k="amenity" v="bar"/>
+  </node>
+  <node id="7810917082" lat="-12.9119441" lon="-38.4749564">
+    <tag k="amenity" v="bar"/>
+  </node>
+  <node id="7810934886" lat="-12.9120212" lon="-38.4753185">
+    <tag k="amenity" v="bar"/>
+  </node>
+  <node id="7810934888" lat="-12.9115702" lon="-38.4767146">
+    <tag k="amenity" v="bar"/>
+  </node>
+  <node id="7830459536" lat="-12.8997163" lon="-38.3663778">
+    <tag k="amenity" v="bar"/>
+  </node>
+  <node id="8142851857" lat="-13.0105273" lon="-38.4733917">
+    <tag k="addr:street" v="Rua do Norte"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Bar Restaurante Grill na Brasa"/>
+  </node>
+  <node id="8143626076" lat="-12.9913706" lon="-38.4597422">
+    <tag k="addr:housenumber" v="629"/>
+    <tag k="addr:street" v="Rua Guillard Muniz"/>
+    <tag k="air_conditioning" v="yes"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="check_date" v="2025-02-28"/>
+    <tag k="name" v="Pirambeira"/>
+    <tag k="outdoor_seating" v="no"/>
+    <tag k="wheelchair" v="no"/>
+  </node>
+  <node id="8575779909" lat="-12.8396726" lon="-38.4731220">
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Bahia House Marina"/>
+  </node>
+  <node id="8764830092" lat="-12.9918012" lon="-38.4592948">
+    <tag k="addr:housenumber" v="175"/>
+    <tag k="addr:street" v="Rua das Angélicas"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="brewery" v="yes"/>
+    <tag k="check_date" v="2022-12-08"/>
+    <tag k="cuisine" v="brazilian"/>
+    <tag k="name" v="Astro"/>
+  </node>
+  <node id="8891132702" lat="-12.9928866" lon="-38.4554728">
+    <tag k="amenity" v="bar"/>
+    <tag k="check_date" v="2025-05-31"/>
+    <tag k="name" v="Quintal da Esquina"/>
+  </node>
+  <node id="9106140917" lat="-13.0133812" lon="-38.4898646">
+    <tag k="amenity" v="bar"/>
+    <tag k="check_date" v="2026-02-16"/>
+    <tag k="name" v="Casa bar"/>
+  </node>
+  <node id="9245605475" lat="-13.0029686" lon="-38.4578138">
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="La Bottega"/>
+  </node>
+  <node id="9257956417" lat="-12.9741294" lon="-38.5085733">
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Poison Drinkeria Club"/>
+  </node>
+  <node id="9509326917" lat="-13.0108540" lon="-38.4946466">
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Bar da Paciência"/>
+  </node>
+  <node id="9598302159" lat="-12.9924826" lon="-38.4552632">
+    <tag k="addr:housenumber" v="148"/>
+    <tag k="addr:postcode" v="41810-070"/>
+    <tag k="addr:street" v="Rua das Rosas"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Obá"/>
+    <tag k="outdoor_seating" v="yes"/>
+  </node>
+  <node id="9598302161" lat="-12.9925690" lon="-38.4552619">
+    <tag k="addr:housenumber" v="136"/>
+    <tag k="addr:street" v="Rua das Rosas"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="check_date" v="2025-11-02"/>
+    <tag k="name" v="Marreco"/>
+  </node>
+  <node id="9609781017" lat="-13.0033267" lon="-38.4516860">
+    <tag k="amenity" v="bar"/>
+    <tag k="check_date" v="2026-02-07"/>
+    <tag k="name" v="Espetto Baiano Prime"/>
+  </node>
+  <node id="9625238925" lat="-12.9327653" lon="-38.4758031">
+    <tag k="addr:street" v="Rua Rezende de Jesus"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="min_age" v="18"/>
+    <tag k="name" v="Bar do Moura"/>
+  </node>
+  <node id="9795837949" lat="-13.0130670" lon="-38.4905242">
+    <tag k="air_conditioning" v="yes"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="brewery" v="yes"/>
+    <tag k="check_date" v="2026-02-16"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/casabohemiasalvador/"/>
+    <tag k="indoor_seating" v="yes"/>
+    <tag k="name" v="Casa Bohemia"/>
+    <tag k="opening_hours" v="Tu-Th 16:00-23:00; Fr-Su 12:00-24:00"/>
+    <tag k="outdoor_seating" v="parklet"/>
+    <tag k="start_date" v="2022-05-26"/>
+  </node>
+  <node id="9835970928" lat="-13.0106642" lon="-38.5325306">
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Dendê Praia Club"/>
+  </node>
+  <node id="10181385989" lat="-13.0020759" lon="-38.4619168">
+    <tag k="addr:housenumber" v="77"/>
+    <tag k="addr:street" v="Alameda Florença"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="check_date" v="2025-01-12"/>
+    <tag k="currency:XBT" v="yes"/>
+    <tag k="name" v="Libertar Bier"/>
+    <tag k="operator" v="@brp2pCripto"/>
+    <tag k="payment:coinos" v="yes"/>
+    <tag k="payment:lightning" v="yes"/>
+    <tag k="payment:onchain" v="yes"/>
+    <tag k="survey:date" v="2023-04-16"/>
+  </node>
+  <node id="10198318695" lat="-12.9216699" lon="-38.5059104">
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Casa Beer"/>
+  </node>
+  <node id="10207185730" lat="-13.0000098" lon="-38.5307956">
+    <tag k="air_conditioning" v="yes"/>
+    <tag k="amenity" v="bar"/>
+  </node>
+  <node id="10594772573" lat="-12.9886739" lon="-38.4710649">
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="DiFoca"/>
+  </node>
+  <node id="10711177769" lat="-12.9467780" lon="-38.3700270">
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Água de Pote"/>
+  </node>
+  <node id="10814538210" lat="-12.9904670" lon="-38.4588287">
+    <tag k="amenity" v="bar"/>
+    <tag k="check_date" v="2023-04-15"/>
+    <tag k="name" v="Botecaria"/>
+  </node>
+  <node id="10828152762" lat="-13.0013218" lon="-38.4507879">
+    <tag k="amenity" v="bar"/>
+    <tag k="check_date" v="2023-04-20"/>
+    <tag k="name" v="Boteco do Caranguejo"/>
+  </node>
+  <node id="10870302663" lat="-12.9808708" lon="-38.5167494">
+    <tag k="addr:city" v="Salvador"/>
+    <tag k="addr:housenumber" v="200"/>
+    <tag k="addr:street" v="Rua Areal de Cima"/>
+    <tag k="addr:suburb" v="Dois de Julho"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Bar do Nõ"/>
+  </node>
+  <node id="10870302664" lat="-12.9828196" lon="-38.5169649">
+    <tag k="addr:city" v="Salvador"/>
+    <tag k="addr:housenumber" v="12"/>
+    <tag k="addr:street" v="Rua da Faísca"/>
+    <tag k="addr:suburb" v="Dois de Julho"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Mocambinho Bar"/>
+  </node>
+  <node id="10908379107" lat="-12.9901654" lon="-38.4576792">
+    <tag k="amenity" v="bar"/>
+    <tag k="check_date" v="2024-12-21"/>
+    <tag k="contact:instagram" v="https://www.instagram.com/vinking_wine/"/>
+    <tag k="name" v="Seu Zelito Boteco dos Botecos"/>
+  </node>
+  <node id="10974871909" lat="-12.9496980" lon="-38.3710682">
+    <tag k="addr:city" v="Salvador - BA"/>
+    <tag k="addr:housenumber" v="19"/>
+    <tag k="addr:postcode" v="41610-140"/>
+    <tag k="addr:street" v="Rua Sub Oficial Gildo Zanin Pistolato"/>
+    <tag k="addr:suburb" v="Itapuã"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Boteco da Cari"/>
+  </node>
+  <node id="11159813586" lat="-12.9615609" lon="-38.4977141">
+    <tag k="addr:city" v="Salvador"/>
+    <tag k="addr:postcode" v="40301-015"/>
+    <tag k="addr:street" v="Rua Nossa Senhora de Lourdes"/>
+    <tag k="addr:suburb" v="Barbalho"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Bar Guanabara"/>
+  </node>
+  <node id="11229939549" lat="-12.9916129" lon="-38.4597620">
+    <tag k="amenity" v="bar"/>
+    <tag k="check_date" v="2023-09-30"/>
+    <tag k="name" v="Tatu Bola"/>
+    <tag k="outdoor_seating" v="yes"/>
+  </node>
+  <node id="11981877687" lat="-12.9981057" lon="-38.4999920">
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Bar da Loura"/>
+  </node>
+  <node id="12051597558" lat="-12.9990873" lon="-38.4599877">
+    <tag k="amenity" v="bar"/>
+    <tag k="check_date" v="2024-07-13"/>
+    <tag k="name" v="Purgatório"/>
+    <tag k="outdoor_seating" v="no"/>
+  </node>
+  <node id="12197649503" lat="-13.0032297" lon="-38.4515852">
+    <tag k="amenity" v="bar"/>
+    <tag k="check_date" v="2026-02-07"/>
+    <tag k="name" v="Jurerê Bar"/>
+  </node>
+  <node id="12405603279" lat="-12.9669106" lon="-38.4051973">
+    <tag k="amenity" v="bar"/>
+    <tag k="check_date" v="2024-12-08"/>
+    <tag k="name" v="Petiscaê"/>
+  </node>
+  <node id="12450296868" lat="-13.0120795" lon="-38.5007016">
+    <tag k="addr:housenumber" v="6a"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Brisa do mar"/>
+  </node>
+  <node id="12590188970" lat="-12.9136726" lon="-38.4697018">
+    <tag k="amenity" v="bar"/>
+    <tag k="check_date" v="2025-02-21"/>
+    <tag k="name" v="Bar"/>
+  </node>
+  <node id="12590242572" lat="-12.9135795" lon="-38.4676879">
+    <tag k="amenity" v="bar"/>
+    <tag k="check_date" v="2025-02-15"/>
+  </node>
+  <node id="12741230933" lat="-12.9821915" lon="-38.4526837">
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Toca do Cobra"/>
+  </node>
+  <node id="12747684032" lat="-12.9495836" lon="-38.3624191">
+    <tag k="addr:city" v="Salvador"/>
+    <tag k="addr:housenumber" v="3-47"/>
+    <tag k="addr:postcode" v="41620240"/>
+    <tag k="addr:street" v="Rua Olhos D'Água"/>
+    <tag k="addr:suburb" v="Itapuã"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Rasta do Coco"/>
+    <tag k="opening_hours" v="Mo-Su 09:00-18:00"/>
+  </node>
+  <node id="12877446401" lat="-13.0116519" lon="-38.4905595">
+    <tag k="addr:housenumber" v="348"/>
+    <tag k="addr:street" v="Rua Conselheiro Pedro Luiz"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="ECO"/>
+  </node>
+  <node id="12954648697" lat="-13.0108612" lon="-38.4945056">
+    <tag k="addr:city" v="Salvador"/>
+    <tag k="addr:housenumber" v="263"/>
+    <tag k="addr:postcode" v="41950-010"/>
+    <tag k="addr:street" v="Rua da Paciência"/>
+    <tag k="addr:suburb" v="Rio Vermelho"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Boteco do Paulista"/>
+    <tag k="note" v="lgbtqiapn+"/>
+    <tag k="opening_hours" v="Quarta - 18h - 23h / Quinta - 17h-23h / Sex e Sáb - 17h -00h / Dom - 18h - 23:30h"/>
+    <tag k="website" v="https://www.instagram.com/botecodopaulista_ssa/reels/"/>
+  </node>
+  <node id="12954662530" lat="-12.9706043" lon="-38.5083239">
+    <tag k="addr:city" v="Salvador"/>
+    <tag k="addr:housenumber" v="06"/>
+    <tag k="addr:postcode" v="40301-408"/>
+    <tag k="addr:street" v="Rua do Passo"/>
+    <tag k="addr:suburb" v="Centro Histórico"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Bar da Pri"/>
+    <tag k="note" v="LGBTQIAPN+"/>
+    <tag k="opening_hours" v="Quarta e Quinta - 21h / Sexta e Sábado - 22h / Domingo - 18h"/>
+    <tag k="website" v="https://www.instagram.com/bardaprii/reels/"/>
+  </node>
+  <node id="12954683850" lat="-12.9838605" lon="-38.5176269">
+    <tag k="addr:city" v="Salvador"/>
+    <tag k="addr:housenumber" v="809"/>
+    <tag k="addr:postcode" v="40060-325"/>
+    <tag k="addr:street" v="Avenida Carlos Gomes"/>
+    <tag k="addr:suburb" v="Centro"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Bar Âncora do Marujo"/>
+    <tag k="note" v="lgbtqiapn+&#x0a;dragqueen"/>
+    <tag k="opening_hours" v="Todos os dias - 21h as 03h"/>
+    <tag k="website" v="https://www.instagram.com/ancoradomarujo/"/>
+  </node>
+  <node id="13437538334" lat="-12.9829079" lon="-38.5167971">
+    <tag k="amenity" v="bar"/>
+    <tag k="indoor_seating" v="yes"/>
+    <tag k="name" v="Brahma"/>
+    <tag k="outdoor_seating" v="yes"/>
+  </node>
+  <node id="13544174295" lat="-13.0083158" lon="-38.5003149">
+    <tag k="amenity" v="bar"/>
+    <tag k="indoor_seating" v="yes"/>
+    <tag k="name" v="Cantinho dans Aguas"/>
+    <tag k="outdoor_seating" v="yes"/>
+  </node>
+  <node id="13544174296" lat="-13.0083101" lon="-38.5002768">
+    <tag k="amenity" v="bar"/>
+    <tag k="indoor_seating" v="yes"/>
+    <tag k="name" v="O barzinho da maria"/>
+    <tag k="outdoor_seating" v="yes"/>
+  </node>
+  <node id="13556579716" lat="-13.0103612" lon="-38.4957229">
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Terê gastrobar"/>
+  </node>
+  <node id="13565462971" lat="-13.0128377" lon="-38.4895748">
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Saideira beer"/>
+  </node>
+  <node id="13588471891" lat="-12.9746493" lon="-38.4913940">
+    <tag k="amenity" v="bar"/>
+    <tag k="indoor_seating" v="yes"/>
+    <tag k="outdoor_seating" v="no"/>
+  </node>
+  <node id="13588503916" lat="-12.9748490" lon="-38.4911230">
+    <tag k="amenity" v="bar"/>
+    <tag k="indoor_seating" v="yes"/>
+    <tag k="name" v="Bar Da Lu"/>
+    <tag k="outdoor_seating" v="no"/>
+  </node>
+  <node id="13612885414" lat="-12.9863784" lon="-38.5199242">
+    <tag k="air_conditioning" v="no"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="O colon"/>
+  </node>
+  <node id="13648591116" lat="-13.0090969" lon="-38.4868928">
+    <tag k="air_conditioning" v="no"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Bar Red river"/>
+  </node>
+
+</osm>
