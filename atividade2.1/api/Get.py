@@ -50,3 +50,12 @@ class handler(BaseHTTPRequestHandler):
         self.send_header('Content-type', 'application/json; charset=utf-8')
         self.end_headers()
         self.wfile.write(json.dumps(postagens).encode('utf-8'))
+
+    def do_POST(self):
+        # Permite que qualquer origem acesse (útil para testes de redes)
+        self.send_response(200)
+        self.send_header('Access-Control-Allow-Origin', '*')
+        self.send_header('Access-Control-Allow-Methods', 'POST, GET, OPTIONS')
+        self.send_header('Access-Control-Allow-Headers', 'Content-Type')
+        self.send_header('Content-type', 'application/json; charset=utf-8')
+        self.end_headers()
