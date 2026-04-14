@@ -1,51 +1,52 @@
-#!/usr/bin/env python3
-import os
+from http.server import BaseHTTPRequestHandler
+from urllib.parse import urlparse
 import json
 from datetime import datetime
-from urllib.parse import parse_qs
 
-qs = os.environ.get("QUERY_STRING", "")
-params = parse_qs(qs, encoding="latin-1")
-
-nome = params.get("nome", ["Anônimo"])[0]
-mensagem = params.get("msg", [""])[0]
-data_hora = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
-
-postagensJSON = "postagens.json"
-
+# Lista em memória para o teste
 postagens = []
 
+class handler(BaseHTTPRequestHandler):
+    def do_POST(self):
+        global postagens
+        
+        # 1. Ler o tamanho do conteúdo
+        content_length = int(self.headers.get('Content-Length', 0))
+        
+        # 2. Ler e decodificar o corpo do JSON
+        body = self.rfile.read(content_length)
+        data = json.loads(body.decode('utf-8'))
+        
+        # 3. Extrair os dados conforme o seu formato
+        # { "action": "put", "message": "...", "author": "..." }
+        action = data.get("action")
+        author = data.get("author", "Anônimo")
+        message = data.get("message", "")
+        
+        if action == "put" and message:
+            nova_postagem = {
+                "autor": author,
+                "data": datetime.now().strftime("%d/%m/%Y %H:%M:%S"),
+                "texto": message
+            }
+            postagens.insert(0, nova_postagem)
 
-with open(postagensJSON, "r", encoding="utf-8") as f:
-    try:
-        postagens = json.load(f)
-    except json.JSONDecodeError:
-        postagens = []
+        # 4. Responder ao cliente
+        self.send_response(200)
+        self.send_header('Content-type', 'application/json; charset=utf-8')
+        self.end_headers()
+        
+        response = {
+            "status": "sucesso",
+            "recebido": nova_postagem if message else None,
+            "total_posts": len(postagens)
+        }
+        
+        self.wfile.write(json.dumps(response).encode('utf-8'))
 
-if mensagem:
-    nova_postagem = {
-        "autor": nome,
-        "data": data_hora,
-        "texto": mensagem
-    }
-
-    postagens.append(nova_postagem)
-
-    with open(postagensJSON, "w", encoding="utf-8") as f:
-        json.dump(postagens, f, indent=4, ensure_ascii=False)
-
-postagens_exibicao = list(reversed(postagens))
-
-print("Content-type: text/html; charset=utf-8")
-print()
-print("<html><head><title>Blog - Lucas Lima Rodrigues</title></head>")
-print("<h1>Postagens</h1>")
-print("<a href='../Get.html'>Nova postagem</a><hr>")
-
-for p in postagens_exibicao:
-    print(f"<div style='border: 1px solid #ddd; padding: 10px; margin-bottom: 10px;'>")
-    print(f"<strong>{p['autor']}</strong> <small>({p['data']})</small><br>")
-    print(f"<p>{p['texto']}</p>")
-    print("</div>")
-
-print("</body></html>")
+    def do_GET(self):
+        # Mantemos o GET apenas para você poder visualizar a lista pelo navegador
+        self.send_response(200)
+        self.send_header('Content-type', 'application/json; charset=utf-8')
+        self.end_headers()
+        self.wfile.write(json.dumps(postagens).encode('utf-8'))
