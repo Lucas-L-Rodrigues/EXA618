@@ -1,0 +1,68 @@
+<html>
+<head>
+  <title>My Blog</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <script type="application/javascript">  
+    const url = "https://script.google.com/macros/s/AKfycbzBn3sALe1rYjz7Ze-Ik7q9TEVP0I2V3XX7GNcecWP8NvCzGt4yO_RT1OlQp09TE9cU/exec";
+
+    function send(){        
+      var data = {
+        "message": document.getElementById("msg").value,
+        "author": document.getElementById("autor").value
+      };      
+      
+      fetch(url, {
+        method: "POST",
+        body: JSON.stringify(data),
+        mode: "no-cors" 
+      }).then(() => {
+        document.getElementById("msg").value = "";
+        document.getElementById("autor").value = "";
+        setTimeout(loadMessages, 1000);
+      });      
+    }
+
+    function loadMessages(){
+    fetch(url)
+        .then(response => response.json())
+        .then(data => {
+        var messagesDiv = document.getElementById("messages");
+        messagesDiv.innerHTML = "";
+        
+        data.forEach(item => {
+            var messageElement = document.createElement("p");
+
+            messageElement.innerHTML = `
+            <strong>${item[1]}</strong>: ${item[0]}
+            <br>
+            <small>${item[2]}</small>
+            `;
+
+            messagesDiv.appendChild(messageElement);
+        });
+        })
+        .catch(error => console.error("Erro ao buscar dados:", error));
+    }
+
+    window.onload = function() {
+      loadMessages();
+      setInterval(loadMessages, 1000);
+    };
+  </script>  
+</head>
+<body>
+  <h1 align="center">Mensagem:</h1>
+  <hr><br>
+  <form onsubmit="event.preventDefault();">
+       <label>Mensagem:</label>
+       <input type="text" size=64 name="msg" id="msg"><br><br>     
+       <label>Autor:</label> 
+       <input type="text" size=64 name="autor" id="autor">
+       <br><br>
+       <button type="button" onclick="send()">Enviar</button>
+  </form>
+  <hr>
+  <h2>Mensagens:</h2>
+  <div id="messages"></div>
+</body>
+</html>

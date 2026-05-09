@@ -42,7 +42,7 @@ def calcular_distancia(lat1, lon1, lat2, lon2):
 # Botei aqui só pra testar se a API tava funcionando no começo do projeto
 @app.get("/")
 def home():
-    return {"mensagem_de_teste":"a API ta funcionando"}
+    return {"m":"a API ta funcionando"}
 
 # Botei esse endpoint pra mostrar a lista dos bares carregados na memória a partir do arquivo (só pra teste mesmo, não é necessário pro funcionamento da API)
 @app.get("/bares")
@@ -52,7 +52,7 @@ def listar_bares():
 # Esse que seria o endpoint chave da API, pegando os bares próximos a partir da localização do usuário, 
 # usando a fórmula de Haversine pra calcular a distância entre o usuário e os bares
 @app.get("/bares/proximos")
-def bares_proximos(lat: float, lon: float, raio_km: float = 1):
+def bares_proximos(lat: float, lon: float, raio_km: float):
     resultado = []
 
     for bar in bares:
@@ -60,7 +60,7 @@ def bares_proximos(lat: float, lon: float, raio_km: float = 1):
         lon_bar, lat_bar = coords
 
         distancia = calcular_distancia(lat, lon, lat_bar, lon_bar)
-        print(distancia)
+        # print(distancia) # mostrando a distancia no terminal pra ver se não estava invertendo as coordenadas
 
         if distancia <= raio_km:
             resultado.append({
