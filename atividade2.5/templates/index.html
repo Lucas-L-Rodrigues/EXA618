@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Início</title>
+</head>
+<body>
+
+    <h1>
+        Número de visitas de {{ usuario }}:
+        {{ visitas }}
+    </h1>
+
+    <hr>
+
+    {% if usuario == "." %}
+
+        <a href="/login">
+            Fazer login
+        </a>
+
+    {% else %}
+
+        <p>
+            Usuário logado: {{ usuario }}
+        </p>
+
+        <a href="/logout">
+            Logout
+        </a>
+
+    {% endif %}
+
+</body>
+</html>
