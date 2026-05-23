@@ -1,11 +1,14 @@
 # Esse 'url_for' foi recomendação de IA para gerar URLs de forma automática
-from flask import Flask, render_template, request, redirect, url_for, make_response, session
+from flask import Flask, render_template, request
+from flask import redirect, url_for
+from flask import make_response, session
 
 
 app = Flask(__name__)
+
 app.secret_key = "chave"
 
-# Só criei 2 usuários mesmo, já que não precisa ter opção de cadastro deixei simples
+# Usuários fixos
 usuarios = {
     "Lucas": "123",
     "Joao": "456"
@@ -15,23 +18,23 @@ usuarios = {
 @app.route("/")
 def index():
 
-    # pegando o nome do usuário
+    # Pegando usuário da sessão
+    # Se não existir login, usa "."
     usuario = session.get("usuario", ".")
 
-    # pegando o nome do cookie específico para o usuário
+    # Nome do cookie específico do usuário
     nome_cookie = f"visitas_{usuario}"
 
-    # pegando o número de visitas a partir do cookie
+    # Pegando número de visitas
     visitas = request.cookies.get(nome_cookie)
 
-    # contador simples para registrar o número de visitas
+    # Incrementa contador
     if visitas:
         visitas = int(visitas) + 1
     else:
         visitas = 1
 
-    # Criando resposta para renderizar a página com as informações do usuário e número de visitas
-    # OBS: como tem o 'render_template' as páginas 'index.html' e 'login.html' precisam estar na pasta 'templates'
+    # Cria resposta HTTP
     resposta = make_response(
         render_template(
             "index.html",
@@ -48,11 +51,11 @@ def index():
 
     return resposta
 
-# aqui é a rota de login, só tem o POST para mandar as informações pra login (e o GET para acessar a página de login)
+
 @app.route("/login", methods=["GET", "POST"])
 def login():
 
-    # POST para logar
+    # POST → tentativa de login
     if request.method == "POST":
 
         usuario = request.form.get("usuario")
@@ -61,8 +64,10 @@ def login():
         # Verifica credenciais
         if usuario in usuarios and usuarios[usuario] == senha:
 
+            # Cria sessão
             session["usuario"] = usuario
 
+            # Redireciona para página inicial
             return redirect(url_for("index"))
 
         else:
@@ -74,16 +79,36 @@ def login():
                 erro=erro
             )
 
+    # GET → mostra formulário
     return render_template("login.html")
 
-# Rota de logout, só remove o usuário da sessão e redireciona para a página inicial
+
+
+@app.route("/perfil")
+def perfil():
+
+    # Verifica se usuário está logado
+    if "usuario" not in session:
+        return redirect(url_for("login"))
+
+    # Pega usuário da sessão
+    usuario = session["usuario"]
+
+    # Renderiza página de perfil
+    return render_template(
+        "perfil.html",
+        usuario=usuario
+    )
+
+
 @app.route("/logout")
 def logout():
 
+    # Remove usuário da sessão
     session.pop("usuario", None)
 
+    # Redireciona para página inicial
     return redirect(url_for("index"))
-
 
 if __name__ == "__main__":
     app.run(debug=True)
