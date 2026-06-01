@@ -7,7 +7,7 @@ function App() {
   const [bares, setBares] = useState([]);
 
   const API_URL =
-    "https://SEU-PROJETO.onrender.com";
+    "https://exa618-projeto-bares.onrender.com";
 
   async function buscarBares() {
     if (!posicao) {
