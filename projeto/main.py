@@ -5,6 +5,8 @@ import os
 from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
+
+# Pense que eu tive problema com esse CORS... toda hora dando erro para solicitação
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -12,11 +14,6 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
-
-#################################################################################
-# Carregamento dos dados
-#################################################################################
 
 # Usando um 'truque' para pegar o caminho do arquivo,
 # pois pegando normalmente tive problemas com o caminho relativo
@@ -61,21 +58,15 @@ def calcular_distancia(lat1, lon1, lat2, lon2):
 
     return distancia
 
-#################################################################################
-# Endpoints
-#################################################################################
 
+
+############## ENDPOINTS ##############
 # Botei aqui só pra testar se a API tava funcionando no começo do projeto
 @app.get("/")
 def home():
     return {
         "mensagem": "A API está funcionando"
     }
-
-
-#################################################################################
-# Listagem completa de bares
-#################################################################################
 
 @app.get("/bares")
 def listar_bares():
@@ -97,11 +88,7 @@ def listar_bares():
 
     return resultado
 
-
-#################################################################################
-# Busca por raio
-#################################################################################
-
+# Buscando os bares por raio
 @app.get("/bares/proximos")
 def bares_proximos(
     lat: float,
@@ -136,11 +123,7 @@ def bares_proximos(
 
     return resultado
 
-
-#################################################################################
-# 10 bares mais próximos
-#################################################################################
-
+# O KNN para pegar os 10 bares mais próximos que foi solicitado
 @app.get("/bares/mais-proximos")
 def bares_mais_proximos(
     lat: float,
@@ -177,10 +160,7 @@ def bares_mais_proximos(
     return resultado[:10]
 
 
-#################################################################################
-# Dar like
-#################################################################################
-
+# O 'like' pra ter um POST no projeto
 @app.post("/bares/{bar_id}/like")
 def curtir_bar(bar_id: int):
 
@@ -197,11 +177,7 @@ def curtir_bar(bar_id: int):
         "likes": likes[bar_id]
     }
 
-
-#################################################################################
-# Consultar likes
-#################################################################################
-
+# O GET dos likes
 @app.get("/bares/{bar_id}/likes")
 def consultar_likes(bar_id: int):
 
